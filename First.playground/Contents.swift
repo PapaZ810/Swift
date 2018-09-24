@@ -35,9 +35,30 @@ occupations["Jayne"] = "PublicRelations"
 
 shoppingList.append("blue paint")
 shoppingList.append("garbage can")
-shoppingList.append("the jews")
+shoppingList.append("gayms")
+shoppingList.append("humongalongus eggs")
 
 print(shoppingList)
+
+let individualScores = [75, 43, 103, 87, 12]
+var teamScore = 0
+for score in individualScores {
+    if score > 50 {
+        teamScore += 3
+    } else {
+        teamScore += 1
+    }
+}
+print(teamScore)
+
+let nickName: String? = nil
+let fullName: String = "John Appleseed"
+let informalGreeting = "Hello \(nickName ?? fullName)"
+print(informalGreeting)
+
+
+
+
 
 
 
